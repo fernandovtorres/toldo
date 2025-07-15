@@ -2,7 +2,7 @@ use directories::ProjectDirs;
 use std::{fs, path::PathBuf};
 
 pub fn get_file_path() -> Option<PathBuf> {
-    if let Some(dirs) = ProjectDirs::from("", "fvt inc.", "toldo") {
+    if let Some(dirs) = ProjectDirs::from("", "fvt inc.", "tui-do-list") {
         let proj_data_dir = dirs.data_dir();
         if let Err(e) = fs::create_dir_all(proj_data_dir) {
             eprintln!("Failed creating data directory: {}", e);

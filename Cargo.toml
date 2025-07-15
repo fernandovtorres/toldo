@@ -1,5 +1,5 @@
 [package]
-name = "toldo"
+name = "tui-do-list"
 author = "Fernando Valentim Torres"
 about = "A simple todo list"
 version = "0.1.0"

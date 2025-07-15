@@ -949,19 +949,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ef927ca75afb808a4d64dd374f00a2adf8d0fcff8e7b184af886c3c87ec4a3f3"
 
 [[package]]
-name = "toldo"
-version = "0.1.0"
-dependencies = [
- "clap",
- "color-eyre",
- "crossterm 0.29.0",
- "directories",
- "ratatui",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "tracing"
 version = "0.1.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1000,6 +987,19 @@ dependencies = [
  "sharded-slab",
  "thread_local",
  "tracing-core",
+]
+
+[[package]]
+name = "tui-do-list"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "color-eyre",
+ "crossterm 0.29.0",
+ "directories",
+ "ratatui",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
